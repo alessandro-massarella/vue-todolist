@@ -3,8 +3,6 @@ const myToDo = new Vue ({
   data: {
     daFareArray: [],
     message: '',
-    empty: ''
-
   },
   methods: {
     addToArray: function(){
