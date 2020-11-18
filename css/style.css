@@ -1,0 +1,12 @@
+makeRed {
+  background-color: red;
+}
+#booLogo {
+  width: 500px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+/* #delButton {
+  position: absolute;
+  right: 30px;
+} */
