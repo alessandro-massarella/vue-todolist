@@ -3,6 +3,8 @@ const myToDo = new Vue ({
   data: {
     daFareArray: [],
     message: '',
+    empty: ''
+
   },
   methods: {
     addToArray: function(){
@@ -10,7 +12,10 @@ const myToDo = new Vue ({
     },
     removeMessage: function(delIndex){
       this.daFareArray.splice(delIndex, 1);
-    }
+    },
+    resetWrite: function(){
+      this.message = "";
+    },
 
   }
 })

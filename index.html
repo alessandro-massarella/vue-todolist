@@ -23,7 +23,7 @@
         <div class="row">
           <div class="col d-flex justify-content-center input">
             <input v-model="message" type="text" name="" placeholder="Nuovo ToDo"value="">
-            <button @click = "addToArray" type="button" name="button">Aggiungi</button>
+            <button @click = "addToArray(); resetWrite()" type="button" name="button">Aggiungi</button>
           </div>
         </div>
       </div>
