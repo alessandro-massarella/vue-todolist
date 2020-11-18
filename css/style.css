@@ -32,11 +32,13 @@ input {
 .output li {
   border-bottom: 1px solid lightgrey;
   width: 800px;
+  display: flex;
+  justify-content: space-between;
 }
 
 #delButton {
-  position: fixed;
-  right: 255px;
+  /* position: fixed;
+  right: 255px; */
 }
 
 .fa {
