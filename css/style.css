@@ -1,3 +1,7 @@
+* {
+  list-style: none;
+  text-decoration: none;
+}
 makeRed {
   background-color: red;
 }
@@ -6,7 +10,35 @@ makeRed {
   margin-top: 30px;
   margin-bottom: 50px;
 }
-/* #delButton {
-  position: absolute;
-  right: 30px;
-} */
+
+input {
+  width: 50%;
+  height: 50px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+.input > button {
+  height: 50px;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+
+.output {
+  background-color: #f6f7f7;
+  border-radius: 10px;
+}
+
+.output li {
+  border-bottom: 1px solid lightgrey;
+  width: 800px;
+}
+
+#delButton {
+  position: fixed;
+  right: 255px;
+}
+
+.fa {
+  color: black;
+}
