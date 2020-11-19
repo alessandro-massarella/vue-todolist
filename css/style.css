@@ -2,8 +2,8 @@
   list-style: none;
   text-decoration: none;
 }
-makeRed {
-  background-color: red;
+.red {
+  background-color: palevioletred;
 }
 #booLogo {
   width: 500px;
